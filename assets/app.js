@@ -106,41 +106,41 @@ if (modes === "blue") {
     colors = "red"
 } else if (modes === "green") {
     colors = "black"
-}  else {
-    colors= "white";
+} else {
+    colors = "white";
 }
- console.log(colors);
+console.log(colors);
 
- let num = 78;
- 
- if ( num % 2 === 0){
+let num = prompt("");
+
+if (num % 2 === 0) {
     console.log("it is even number")
- }
- else{
+}
+else {
     console.log("it is odd number")
- }
+}
 
 
 //  ------------this---------------
- const user = {
-    name:"abc",
-    birthday : 1990,
-    birth: function(){
+const user = {
+    name: "abc",
+    birthday: 1990,
+    birth: function () {
         const currentyear = (new Date()).getFullYear();
         return currentyear - this.birthday;
     }
- }
- console.log(user.birth());
+}
+console.log(user.birth());
 
 
- const use = {
-    name : "abcd",
+const use = {
+    name: "abcd",
     birtht: 1200,
-    birthh: function(){
+    birthh: function () {
         const currentyear = (new Date()).getFullYear();
         return currentyear - this.birtht;
     }
- }
+}
 console.log(use.birthh());
 // ------------Coercion-------------
 let aab = 2;
@@ -156,3 +156,11 @@ console.log(aac === cca);
 let ccca = false;
 let aaac = 0;
 console.log(ccca == aaac);
+console.log(4 + "4");
+console.log("4" + "5");
+console.log(4 + 4);
+
+
+ let v = -1;
+ let r = 1;
+ console.log(v + r)
